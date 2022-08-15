@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form class="formulario">
+            <h1 id="titulo">Formulário</h1>
+            <span>Preencha os campos abaixo para te conhecermos</span>
+            
+            <div class="dados-usuario">
+                <div class="resolver">
+                <label id="solo">Name</label>
+                <input type="text" placeholder="Enter your name" required>
+               
+                </div>
+                <div class="resolver">
+                <label>E-mail</label>
+                <input type="text" placeholder="youremail@email.com">
+                
+                </div>
+
+            </div>
+            <div class="opiniao">
+                <p class="subtitulos-1">Qual opção descreve o final de Game of Thrones na sua opinião</p>
+                <select name="" id="">
+                    <option disabled selected value>O que achou?</option>
+                    <option value="">Muito boa</option>
+                    <option value="">Ruim</option>
+                    <option value="">Péssima</option>
+                    <option value="">Tristemente executada</option>
+                </select>
+            </div>
+            <div class="gameofthrones">
+                <p class="subtitulos">Em um mundo hipotético, você contrataria novamente os showrunners para qualquer outra série?</p>
+                <input type="radio"> Não 
+                <input type="radio"> Sim
+                <input type="radio"> Claro que não
+            </div>
+
+            <div class="series">
+                <p class="subtitulos">Qual série você está aguardando?</p>
+                <span><em>Escolha quantas quiser</em></span>
+                <div>
+                <input type="checkbox"/><span>Westworld</span>
+                <input type="checkbox"/><span>Westworld</span>
+                <input type="checkbox"/><span>Westworld</span></div>
+                <div>
+                <input type="checkbox"/><span>Westworld</span>
+                <input type="checkbox"/><span>Westworld</span>
+                <input type="checkbox"/><span>Westworld</span></div>
+            </div>
+            <input type="button" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>

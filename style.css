@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&family=Varela+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, lightblue,lightpink);
+}
+
+main{
+  
+    height: 600px;
+    width: 450px;
+    
+}
+
+.formulario{
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 221, 179);
+    height: 599px;
+    border-radius: 15px;
+    border: 1px solid orange;
+    box-shadow: 1px 1px 1px 3px rgb(139, 139, 219), 4px 4px 4px red, 2px 2px 2px purple;
+    font-family:"Varela Round",  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#titulo{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: "Roboto Slab",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.subtitulos{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.dados-usuario{
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 300px;
+    margin-top: 8px;
+ 
+}
+
+.resolver{
+    display: flex;
+    justify-content: space-around;    
+    padding: 5px 0;
+    width: 300px;
+    
+}
+
+#solo{
+    padding-right: 6px;    
+}
+
+.resolver input{
+    outline: none;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid rgba(148, 146, 146, 0.692);
+    background-color: rgb(243, 221, 179);
+}
+
+.opiniao{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.opiniao select{
+    margin-top: 10px;
+    background-color: rgb(212, 203, 243);
+    width: 190px;
+    text-align: center;
+    outline: none;
+    padding: 4px;
+    
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: "Varela Round", 'Courier New', Courier, monospace;
+    background: lightpink;
+}
+
+.opiniao select option{
+    font-family: "Varela Round", 'Courier New', Courier, monospace;
+    font-size: 14px;
+    
+    
+}
+.subtitulos-1{
+    text-align: center;
+}
+
+.gameofthrones{
+    display: inline-block;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 20px;
+  
+
+}
+
+
+.series{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 130px;
+    margin-top: -10px;
+    
+}
+
+input[type=radio]{
+    padding-top: 35px;
+    margin-left: 10px;
+    
+}
+
+
+input[type=checkbox]{
+    accent-color: rgb(255, 3, 45);
+    margin-bottom: 10px;
+    
+}
+
+span{
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    
+}
+
+
+input[type=button]{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    bottom: 6px;
+    background: linear-gradient(lightblue,lightpink);
+    border: 1px solid ;
+    border-radius: 15px;
+}
+
